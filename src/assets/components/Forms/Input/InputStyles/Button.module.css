@@ -1,20 +1,20 @@
 .Container{
 
 }
-button{
+.ButtonSubmit{
     width: 100%;
     height: 6vh;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: #1e9e6a;
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 500;
     color: #f7fafc;
 }
-    button:hover{
+    .ButtonSubmit:hover{
         cursor: pointer;
         background-color: #177c54;
 }   
-    button:active{
+    .ButtonSubmit:active{
         background-color: #115e3f;
     }

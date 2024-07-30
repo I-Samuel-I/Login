@@ -19,7 +19,10 @@
     top: 14px;
     font-weight: 700;
     color: #1a202c;
-    
+    cursor: pointer;
     
 }
+    .PositionRadio:checked{
+        background-color: red;
+    }
     

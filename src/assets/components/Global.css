@@ -22,3 +22,9 @@
     justify-content: flex-end;
 
 }
+.GlobalImg{
+    margin-top: 25px;
+    margin-right: 100px;
+    display: flex;
+    width: 30%;
+}
