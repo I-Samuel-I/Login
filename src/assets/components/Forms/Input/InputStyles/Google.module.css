@@ -1,0 +1,16 @@
+.Container{
+    
+    position: relative;
+    top: 10px;
+    border: solid 1px;
+    height: 6vh;
+    text-align: center;
+    
+}
+.LinkGoogle{
+    display: flex;
+    color: #f7fafc;
+    background-color: #1a202c;
+    text-decoration: none;
+    
+}

@@ -1,0 +1,25 @@
+.Container{
+    display: flex;
+}
+.Content{
+    width: 50%;
+}
+.ContainerLink{
+    text-decoration: none;
+    font-weight: 600;
+    color: #1e9e6a;
+}
+    .ContainerLink:hover{
+        text-decoration: underline;
+        color: #14704b;
+    }
+.PositionRadio{
+    position: relative;
+    margin-right: 7px;
+    top: 14px;
+    font-weight: 700;
+    color: #1a202c;
+    
+    
+}
+    

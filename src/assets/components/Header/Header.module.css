@@ -1,0 +1,22 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    color: #1A202C;
+    width: 60%;
+}
+h1{
+    position: relative;
+    
+    font-weight: bold;
+    top:22px;
+}
+h2{
+    font-weight: 600;
+    font-size: 1.3em;
+
+    position: relative;
+    top: 57px;
+    
+}
+
