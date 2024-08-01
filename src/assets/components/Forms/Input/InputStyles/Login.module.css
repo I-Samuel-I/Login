@@ -2,17 +2,39 @@
     color:#1a202c;
     font-weight: 500;
     font-size: 1.1em;
+    box-sizing: border-box;
+    
 
 }
 .GlobalInput{
-    width: 100%;
+    width: 96.4%;
     height: 5vh;
     padding-left: 10px;
     border: solid 1px #e8e8e8;
     border-radius: 5px;
     background-color: #f7fafc;
+    
+    
    
 }
+.GlobalInput:active{
+    border: solid 1px #f7fafc;
+}
+
+
+.GlobalInput:focus{
+    outline: none;
+}
+.EyeIcon{
+    position: relative;
+    margin-right: 5%;
+    bottom: 30px;
+    font-size: 1.2em;
+    float: right;
+    height: 5;
+    
+}
+
 p{
     position: relative;
     top: 10px;
