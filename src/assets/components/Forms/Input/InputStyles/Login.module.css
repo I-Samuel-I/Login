@@ -4,15 +4,17 @@
     font-size: 1.1em;
     box-sizing: border-box;
     
+    
 
 }
 .GlobalInput{
-    width: 96.4%;
+    width: 100%;
     height: 5vh;
     padding-left: 10px;
     border: solid 1px #e8e8e8;
     border-radius: 5px;
     background-color: #f7fafc;
+    
     
     
    
@@ -34,8 +36,10 @@
     height: 5;
     
 }
-
-p{
-    position: relative;
-    top: 10px;
+.TextInputPassword{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.TextInputEmail{
+    margin-bottom: 15px;
 }

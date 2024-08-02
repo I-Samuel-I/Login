@@ -1,5 +1,5 @@
 import styles from "./SignIn.module.css"
-export default function(){
+export default function SignIn(){
     return(
         <div className={styles.Container}>
                 <div className={styles.Content}>

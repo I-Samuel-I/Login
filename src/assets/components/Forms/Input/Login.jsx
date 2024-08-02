@@ -3,6 +3,7 @@ import { useState } from 'react';
 export default function Login(){
     const [ShowPassword,setShowPassword] = useState(false);
 
+    //Função feita para acessar os icones e coloca-los no código.
     function Eye() {
     const link = document.createElement("link");
     link.id ="bootstrap-icons"
@@ -10,23 +11,21 @@ export default function Login(){
     link.href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css";            
     document.head.appendChild(link);            
 }   
+    // Retorna a função e inverte os operadores
     Eye();
     const PasswordVisibility = () =>{
         setShowPassword(prevState => !prevState)
     }
-    
     return(
-        
-        
         <form>  
               
             <div className={styles.Container}>
-                <p>E-mail</p>
+                <p className={styles.TextInputEmail}>E-mail</p>
                 <input className={styles.GlobalInput} type="email"placeholder="exemplo@gmail.com" 
                 name="email" minLength="20" autoComplete='on' required/>
             </div> 
             <div className={styles.Container}>
-                <p>Senha</p>
+                <p className={styles.TextInputPassword}>Senha</p>
                 <input 
                 className={styles.GlobalInput} 
                 type={ShowPassword ? "text" : "password"} 
