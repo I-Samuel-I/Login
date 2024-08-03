@@ -1,13 +1,11 @@
 .Container{
     display: flex;
     
-}
+}    
 .Content{
-    width: 50%;
-    
+    width: 50%; 
 }
 .ContainerLink{
-    
     margin-left: 44px;
     text-decoration: none;
     font-weight: 600;
@@ -20,13 +18,20 @@
 .PositionRadio{
     position: relative;
     margin-right: 7px;
-   
     font-weight: 700;
     color: #1a202c;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
     .PositionRadio:checked{
         background-color: red;
+}
+@media only screen and (max-width: 768px) {
+    .Container{
+       font-size: 1em;
+       border: solid 1px;
     }
-    
+    .ContainerLink{
+        border: solid 1px;
+        
+    }
+}
