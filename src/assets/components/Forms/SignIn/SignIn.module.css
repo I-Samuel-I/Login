@@ -1,20 +1,19 @@
 .Container{
+    position: relative;
+    top: 10px;
     margin-top: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .Content{
     color: #1a202c;
     display: flex;
-    
     align-items: center;
     font-size: 1.12em;
     font-weight: 600;
     margin-right: 1%;
 }
-
 .SignIn{
     display: flex;
     align-items: center;
@@ -25,4 +24,9 @@
     .SignIn:hover{
         text-decoration: underline;
         color: #14704b;
-    }
+}
+@media only screen and (max-width: 425px) {
+    .Container{
+        font-size: 0.9em;
+    }    
+}

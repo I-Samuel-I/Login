@@ -35,10 +35,16 @@
 @media only screen and (min-width: 992px) {
     .GlobalImg{
         display: block;
+        position: relative;
+        left: 5%;
+        width: 500px;
     }
 }
 @media only screen and (min-width: 1200px) {
     .GlobalImg{
        display: block;
+       position: relative;
+       left: 3%;
+       
     }
 }

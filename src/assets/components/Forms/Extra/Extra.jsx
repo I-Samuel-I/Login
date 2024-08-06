@@ -31,9 +31,9 @@ export default function Extra(){
                 Lembre de mim
             </label>
         </div>
-        <ul className={styles.Content}>
+        <div className={styles.Content}>
             <a className={styles.ContainerLink} href="#" target="_blank">Esqueceu sua senha?</a>
-        </ul>
+        </div>
     </form>
     )
 }

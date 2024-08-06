@@ -18,7 +18,6 @@ export default function Login(){
     }
     return(
         <form>  
-              
             <div className={styles.Container}>
                 <p className={styles.TextInputEmail}>E-mail</p>
                 <input className={styles.GlobalInput} type="email"placeholder="exemplo@gmail.com" 
@@ -32,11 +31,9 @@ export default function Login(){
                 placeholder="0123456789" 
                 name="password" minLength="8" maxLength="70" required/>
                 <i 
-                className={` ${ShowPassword ? "bi-eye-slash" : "bi-eye"} 
-                ${styles.EyeIcon}`}
+                className={styles.icon}
                 onClick={PasswordVisibility}>
                 </i>
-                
             </div>
         </form>
     )
