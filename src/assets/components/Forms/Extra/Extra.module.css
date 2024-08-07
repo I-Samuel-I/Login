@@ -1,5 +1,7 @@
 .Container{
     display: flex;
+    margin-top: 5%;
+    
 }    
 .Content{
     width: 100%;
@@ -33,6 +35,5 @@
 @media only screen and (max-width: 400px) {
     .Container{
         font-size: 0.9em;
-        
      }
 }

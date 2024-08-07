@@ -5,7 +5,6 @@ export default function Header(){
         <main className={` ${styles.Container} ${MediaQuery.MediaQuery}`}>
             <h2>Bem-vindo(a) de volta</h2>
             <h1>Faça login na sua conta</h1>
-           
         </main>
     )
 }

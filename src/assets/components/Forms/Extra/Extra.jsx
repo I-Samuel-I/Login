@@ -9,8 +9,6 @@ export default function Extra(){
     //     setRememberSelect (!RememberSelect);
 
     // }
-    
-    
     //Guarda o resultado anterior, e depois reverte
     // True para False | False para True
     // Retorna o valor atual para o radio/label.
@@ -18,7 +16,6 @@ export default function Extra(){
         setRememberSelect(prevState => !prevState);
         // Função de atualização, forma indireta.
     }
-
     return(
     <form className={styles.Container}> 
         <div className={styles.Content}>
@@ -26,7 +23,6 @@ export default function Extra(){
             type="radio" name="remember" id="remember" 
             checked={RememberSelect}
             onClick={RadioClick}></input>
-            
             <label className={styles.PositionRadio} htmlfor="remember" onClick={RadioClick}>
                 Lembre de mim
             </label>

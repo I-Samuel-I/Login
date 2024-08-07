@@ -8,6 +8,5 @@ export default function Google(){
                     Ou Faça login com o Google
             </button>
         </div>
-        // href="https://accounts.google.com/signin"
     )
 }

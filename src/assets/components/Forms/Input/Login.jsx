@@ -2,7 +2,6 @@ import styles from './InputStyles/Login.module.css'
 import { useState } from 'react';
 export default function Login(){
     const [ShowPassword,setShowPassword] = useState(false);
-
     //Função feita para acessar os icones e coloca-los no código.
     function Eye() {
     const link = document.createElement("link");
