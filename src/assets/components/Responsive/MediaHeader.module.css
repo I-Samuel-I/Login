@@ -8,6 +8,12 @@
         width: 100%;
     }
 }
+@media  (min-width:729px) and (max-width: 729px) and (min-height: 320px) and (max-height: 425px){
+    /* Modo Retrato */
+    .MediaQuery{
+        width: 70%;
+    }
+      }
 @media only screen and (min-width: 768px) {
     .MediaQuery{
         width: 100%;
